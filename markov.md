@@ -69,12 +69,12 @@ basis_vector2 = (x2, y2, z2)
 basis_vector3 = (x3, y3, z3)
 
 First vector
-2*x1 + y1 + z1 = 1
+2\*x1 + y1 + z1 = 1
 (1/2, 0, 0)
 
 
 Second vector
-2*x2 + y2 + z2 = 1
+2\*x2 + y2 + z2 = 1
 
 ---------
 
@@ -89,11 +89,11 @@ e3 is the vector (0,0,1)
 
 [e1, e2, e3] is a set of three vectors that is a basis of R^3
 
-[1/2*e1, e2, e3] is ALSO a basis of R^3
+[1/2\*e1, e2, e3] is ALSO a basis of R^3
 
 [-e1, -e2, -e3] is ALSO a basis of R^3
 
-[100*e1, 5*e2, -20*e3] is ALSO a basis of R^3
+[100\*e1, 5\*e2, -20\*e3] is ALSO a basis of R^3
 
 
 [e1+e2, e2+e3, e3-e1] is NOT a basis of R^3
@@ -121,5 +121,5 @@ All these statements are equivalent for a set of three vectors in R^3:
 - the vectors are linearly independent
 - 0 is not an eigenvalue
 - the determinant != 0
-(the last because determinant = Prod(lambda_i) = lambda_1*lambda_2*lambda_3)
+(the last because determinant = Prod(lambda_i) = lambda_1\*lambda_2\*lambda_3)
 
